@@ -1,0 +1,70 @@
+h1,h2,h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-size: 28px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+/* Conteneur pour chaque Pokémon */
+.pokemon {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style des titres dans les conteneurs Pokémon */
+.pokemon h1 {
+    font-size: 20px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+/* Style des images */
+.pokemon img {
+    max-width: 100px;
+    margin: 10px ;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.pokemon p {
+    font-size: 14px;
+    margin: 5px ;
+    padding: 5px;
+    background-color: #e0d7d7;
+    
+}
+
+/* Conteneur pour le combat */
+.combat {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Message de victoire */
+.combat h1 {
+    font-size: 24px;
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 15px;
+}
